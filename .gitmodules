@@ -1,0 +1,3 @@
+[submodule "RSAlgorithms"]
+	path = RSAlgorithms
+	url = https://github.com/hongleizhang/RSAlgorithms
