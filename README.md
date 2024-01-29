@@ -7,6 +7,29 @@ git clone https://github.com/hgdly/Project-SocRec
 git submodule update --init --recursive
 ```
 
+## Éxecution
+
+```bash
+# Pour utiliser le dataset Delicious ou Epinions
+# Ce programme va créer les fichiers au bon format dans les dossiers epinions et delicious
+python3 loader_sampler.py
+
+# Récupérer les données et les placer dans le dossier data de RSAlgorithms
+
+# Configuer configx.py
+# Pour utiliser delicious changer dataset_name par dl
+# Pour utiliser epinions changer dataset_name par ep
+
+# Lancer dans un premier temps cross_validation.py
+cd RSAlgorithms/utility
+python3 cross_validation.py
+
+# Puis lancer le model que vous voulez
+cd RSAlgorithms/model
+# Ici on lance le modèle SocialReg dans lequel on a ajouté nos fonctions de similarité
+python3 social_reg_ADD.py
+```
+
 ## Données
 
 - [Delicious](https://grouplens.org/datasets/hetrec-2011/)
