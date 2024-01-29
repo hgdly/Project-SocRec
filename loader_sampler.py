@@ -17,6 +17,7 @@ DELICIOUS_TRUST_PATH = f"{DELICIOUS_FOLDER_PATH}user_contacts-timestamps.dat"
 DELICIOUS_RATINGS_PATH = f"{DELICIOUS_FOLDER_PATH}user_taggedbookmarks-timestamps.dat"
 
 SAMPLE_SIZE = 2000
+RANDOM_SEED = np.random.seed(42)
 
 #--------Classes-----------------------------------------------------------------------------------
 

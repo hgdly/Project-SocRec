@@ -16,7 +16,7 @@ python3 loader_sampler.py
 
 # Récupérer les données et les placer dans le dossier data de RSAlgorithms
 
-# Configuer configx.py
+# Configurer configx.py
 # Pour utiliser delicious changer dataset_name par dl
 # Pour utiliser epinions changer dataset_name par ep
 
