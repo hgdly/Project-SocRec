@@ -1,5 +1,7 @@
 # Mini-Projet – Systèmes de recommandation sociale
 
+Github du projet : [Github](https://github.com/hgdly/Project-SocRec)
+
 ## Téléchargements
 
 ```git
@@ -11,10 +13,13 @@ git submodule update --init --recursive
 
 ```bash
 # Pour utiliser le dataset Delicious ou Epinions
-# Ce programme va créer les fichiers au bon format dans les dossiers epinions et delicious
+# Ce programme va créer les fichiers au bon format 
+# dans les dossiers epinions et delicious
 python3 loader_sampler.py
 
-# Récupérer les données (ep_ratings.txt, ep_trust.txt, dl_ratings, dl_trust.txt) et les placer dans le dossier data de RSAlgorithms
+# Récupérer les données (ep_ratings.txt, ep_trust.txt, 
+# dl_ratings, dl_trust.txt) et les placer dans le dossier 
+# data de RSAlgorithms
 
 # Configurer configx.py
 # Pour utiliser delicious changer dataset_name par dl
