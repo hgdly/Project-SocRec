@@ -14,7 +14,7 @@ git submodule update --init --recursive
 # Ce programme va créer les fichiers au bon format dans les dossiers epinions et delicious
 python3 loader_sampler.py
 
-# Récupérer les données et les placer dans le dossier data de RSAlgorithms
+# Récupérer les données (ep_ratings.txt, ep_trust.txt, dl_ratings, dl_trust.txt) et les placer dans le dossier data de RSAlgorithms
 
 # Configurer configx.py
 # Pour utiliser delicious changer dataset_name par dl
@@ -27,8 +27,15 @@ python3 cross_validation.py
 # Puis lancer le model que vous voulez
 cd RSAlgorithms/model
 # Ici on lance le modèle SocialReg dans lequel on a ajouté nos fonctions de similarité
-python3 social_reg_ADD.py
+python3 <model_name>.py
 ```
+
+## Modèles créés
+
+On a créé deux modèles :
+
+- `social_reg_ADD_jaccard.py` : modèle SocialReg avec la fonction de similarité Jaccard
+- `social_reg_ADD_n2v.py` : modèle SocialReg qui implémente Node2Vec
 
 ## Données
 
