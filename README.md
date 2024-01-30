@@ -1,5 +1,7 @@
 # Mini-Projet – Systèmes de recommandation sociale
 
+Dépôt Github du projet : [Github](https://github.com/hgdly/Project-SocRec)
+
 ## Téléchargements
 
 ```git
