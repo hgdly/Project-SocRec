@@ -47,3 +47,5 @@ On a créé deux modèles :
 [1]H. Ma, D. Zhou, C. Liu, M. R. Lyu, and I. King, “Recommender systems with social regularization,” in Proceedings of the fourth ACM international conference on Web search and data mining, Feb. 2011, pp. 287–296. doi: 10.1145/1935826.1935877.
 
 [2]H. Zhang, G. Liu, and J. Wu, “Social Collaborative Filtering Ensemble,” in PRICAI 2018: Trends in Artificial Intelligence, vol. 11012, X. Geng and B.-H. Kang, Eds. Cham: Springer International Publishing, 2018, pp. 1005–1017. doi: 10.1007/978-3-319-97304-3_77.
+
+[3]A. Grover and J. Leskovec, “node2vec: Scalable Feature Learning for Networks,” in Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016, pp. 855–864. doi: 10.1145/2939672.2939754.
