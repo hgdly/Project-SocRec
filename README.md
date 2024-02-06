@@ -6,6 +6,7 @@ Dépôt Github du projet : [Github](https://github.com/hgdly/Project-SocRec)
 
 ```git
 git clone https://github.com/hgdly/Project-SocRec
+cd Project-SocRec
 git submodule update --init --recursive
 ```
 
@@ -17,21 +18,21 @@ pip3 install -r requirements.txt
 
 ## Exécution
 
-Pour obtenir les analyses des datasets
+#### Pour obtenir les analyses des datasets
 
 ```
 descriptive_analysis.ipynb
 ```
 
-Pour utiliser le dataset Delicious ou Epinions
+#### Pour utiliser le dataset Delicious ou Epinions
 
-Ce programme va créer les fichiers au bon format dans les dossiers epinions et delicious
+Lancer le programme `loader_sampler`. Il va créer les fichiers au bon format dans les dossiers epinions et delicious
 
 ```bash
 python3 loader_sampler.py
 ```
 
-Récupérer les données et les placer dans le dossier data de RSAlgorithms
+Récupérer les données (`dl_ratings`, `dl_trust`, `ep_ratings`, `ep_trust`) qui sont dans les dossiers `delicious` et `epinions` et les placer dans le dossier `data` de RSAlgorithms
 
 ### Configurer configx.py
 
@@ -47,8 +48,6 @@ python3 cross_validation.py
 ```
 
 Puis lancer le modèle que vous voulez
-
-Ici on lance le modèle SocialReg dans lequel on a ajouté nos fonctions de similarité
 
 ```bash
 cd RSAlgorithms/model
